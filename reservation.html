@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Kako strelka koristam UTF-8 Character za back arrow so cel da go zapazam koristenjeto iskluchivo na HTML -->
+            <a href="index.html">&#129136;Back link</a>
+        </nav>
+        <div align="center">
+            <h1><u>Contact Us/Make a Reservation</u></h1>
+        </div>
+    </header>
+    <main>
+        <div align="center">
+            <form>
+                <div>
+                    <p>
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                    <label for="phone">Phone: </label>
+                    <input type="tel" name="phone" id="phone">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                    <label for="date">Date: </label>
+                    <input type="date" name="date" id="date">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                    <label for="time">Time: </label>
+                    <input type="time" name="time" id="time">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                    <label for="number">Number: </label>
+                    <input type="number" name="number" id="number">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="seating">Seating Preference: </label>
+                        <input type="radio" name="seating" value="indoor" id="indoor" checked>
+                        <label for="indoor">Indoor</label>
+                        <input type="radio" name="seating" value="outdoor" id="outdoor">
+                        <label for="outdoor">Outdoor</label>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <span>Special Requests: </span>
+                        <span>
+                            <span>
+                            <input type="checkbox" id="vegetarian" name="vegetarian" value="vegetarian">
+                            <label for="vegetarian">Vegetarian Options</label>
+                            </span>
+                            <span>
+                            <input type="checkbox" id="allergy" name="allergy" value="allergy-friendly">
+                            <label for="allergy">Allergy Friendly</label>
+                            </span>
+                            <span>
+                            <input type="checkbox" id="window-seat" name="window-seat" value="window-seat">
+                            <label for="window-seat">Window Seat</label>
+                            </span>
+                            <span>
+                            <input type="checkbox" id="highchair" name="highchair" value="highchair">
+                            <label for="highchair">Need a Highchair</label>
+                            </span>
+                            <span>
+                            <input type="checkbox" id="special-occasion" name="special-occasion" value="special-occasion">
+                            <label for="special-occasion">Celebrating a Special Occasion</label>
+                            </span>
+                        </span>
+                    </p>
+                </div>
+                <div>
+                    <label for="notes">Additional Notes:</label><br>
+                    <textarea name="notes" id="notes" cols="20"></textarea>
+                </div>
+                <div>
+                    <p>
+                    <input type="submit" id="submit" name="submit" value="Submit Reservation">
+                    </p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <br><br>
+    <footer align="center">
+        <div>
+            <!-- Linkot do instagram vodi so otvaranje na nov TAB -->
+        <p>Follow us on <a href="https://www.instagram.com" target="_blank">instagram</a>!</p>
+        <p>&copy; 2024 The Urban Garden Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
